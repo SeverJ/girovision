@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	margin:0 0 0.5em;
+}
+.wrapper {
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#header {
+	background:#fff;
+	height:80px;
+	padding:20px;
+}
+
+#logo {
+	float:left;
+}
+
+#nav {
+	float:right;
+}
+
+#nav ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	}
+#nav ul li {
+	float: left; 
+	}
+
+p {
+	margin: 0 0 0.5em ;
+	}
+img {
+	max-width:100%;
+	}
+
+.negativ p {
+	color: #FFF; 
+	}
+.negativ a {
+	color:#094186; 
+	text-decoration:none; 
+	}
+.negativ a:link , 
+.negativ a: visited { 
+color: #0260aa;
+text-decoration: none;
+	} 
+
+.negativ h1,
+ .negativ h2,
+ .negativ h3, 
+ .negativ h4, 
+ .negativ h5,
+ .negativ h6 {
+	 color: #FFF;
+}
+
+.button {
+	display:inline-block;
+	color: #0260aa;
+	border: 2px solid #0162af; 
+	background: #FFF;
+	font-size:12px;
+	font-weight:700px; 
+	letter-spacing: 1px;
+	padding: 14px 28px; 
+	margin: 20px 5px;
+	text-transform:uppercase;
+	transitiion: 0.4s allease;
+	border-radius: 25px;
+	text-decoration:none;
+	line-height:1;
+	}
+.button:hover{
+	background: rgba(9,65,134,1);
+	color: #fff;
+	}
+
+#services {
+	text-align:center;
+	padding:50px 0;
+	}
+.service {
+	float:left;
+	width: 350px;
+	height:300px;
+	margin-right: 50px;
+	position: relative;
+	margin-top:30px;
+	overflow:hidden;
+	}
+.service:nth-of-type(3n){
+	margin-right:0;
+	}
+.serviceText {
+	position:absolute;
+	bottom:-300px;
+	left:0;
+	height:200px;
+	transition: 1s all ease;
+	width:350px; 
+	background: rgba(255,255,255,0);
+	padding:50px 0; 
+	font-size:1,4em; 
+	}
+
+.service:hover .serviceText {
+	bottom: 0;
+	background: rgba(255,255,255,0.7);
+	}
+
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+#idea {
+	margin-top:50px; 
+	background:#094186;
+	padding: 20px; 
+	}
+.sijalica {
+	float:left;
+	margin-right:20px; 
+	animation:1s sijalica infinite; 
+	}
+@keyframes sijalica
+{
+  0%   { opacity: 0; }
+  50%  {opacity: 0,6;}
+  80%  {opacity: 0,2; }
+  90%  { opacity:0,4;}
+  100% { opacity: 1; }
+}
+
+#about {
+	padding:100px 0; 
+	background-image:url(images/about1.jpg);
+	background-position:center center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	}
+
+
+#footer {
+	text-align:center;
+	padding:5px ;
+	background:#094186;
+	}
+	
+
+
+	
